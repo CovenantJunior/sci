@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Scientific Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.75, shrink-to-fit=no">
+
+        <!--Icon-->
+        <link rel="shortcut icon" type="image/svg" href="graph-up.svg">
+
+        <!-- load stylesheets -->
+        <link rel="stylesheet" href="css/scientific.css">
+
+    </head>
+
+    <body>
+        <div id="app">
+            <div class="calculator">
+
+
+                <textarea id="item-input" placeholder="0"></textarea>
+
+                <br>
+                <br>
+                <div class="mode" v-else>
+                    <button class="press orange" onclick="sin()">sin</button>
+                    <button class="press orange" onclick="cos()">cos</button>
+                    <button class="press orange" onclick="tan()">tan</button>
+                    <button class="press orange" onclick="log()">log</button>
+                    <button class="press orange" onclick="fac()">n !</button>
+                    <button class="press orange" onclick="r()">rad</button>
+                    <button class="press orange" onclick="power()">y<sup>x</sup></button>
+                    <button class="press orange" onclick="reciproc()"><sup>1</sup>/<sub>x</sub></button>
+                    <button class="press orange" onclick="cuberoot()"><sup>3</sup>√y</button>
+                    <button class="press orange" onclick="root()"><sup>x</sup>√y</button>
+                    <button class="press orange" onclick="powerthree()">x <sup>3</sup></button>
+                    <button class="press orange" onclick="pi()">&#x003C0;</button>
+                    <button class="press dimgray" onclick="seven()">7</button>
+                    <button class="press dimgray" onclick="eight()">8 </button>
+                    <button class="press dimgray" onclick="nine()">9</button>
+                    <button class="press silver" onclick="divide()">/</button>
+                    <button class="press silver" onclick="toggle()">±</button>
+                    <button class="press silver" onclick="powertwo()">x <sup>2</sup></button>
+                    <button class="press dimgray" onclick="four()">4</button>
+                    <button class="press dimgray" onclick="five()">5</button>
+                    <button class="press dimgray" onclick="six()">6</button>
+                    <button class="press silver" onclick="times()">*</button>
+                    <button class="press silver" onclick="openbracket()">(</button>
+                    <button class="press silver" onclick="closebracket()">)</button>
+                    <button class="press dimgray" onclick="one()">1</button>
+                    <button class="press dimgray" onclick="two()">2</button>
+                    <button class="press dimgray" onclick="three()">3</button>
+                    <button class="press silver" onclick="minus()">-</button>
+                    <button class="press silver" onclick="percent()">%</button>
+                    <button class="press silver" onclick="squareroot()">√</button>
+                    <button class="press dimgray" onclick="zero()">0</button>
+                    <button class="press dimgray" onclick="doublezero()">00</button>
+                    <button class="press dimgray" onclick="point()">.</button>
+                    <button class="press silver" onclick="plus()">+</button>
+                    <button class="press silver" onclick="backspace()"><img src="fonts/trash.svg"></button>
+                    <button class="press red" onclick="clean()">AC</button>
+                    <button class="press equal-sign" onclick="equals()">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="js/scientific.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/scientific.js"></script>
+        </footer>
+    </body>
+
+</html>
